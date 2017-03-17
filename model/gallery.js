@@ -1,7 +1,6 @@
 'use strict'
 
 const mongoose = require('mongoose')
-
 const gallerySchema = mongoose.Schema({
   name: {type: String, required: true},
   desc: {type: String, required: true},
